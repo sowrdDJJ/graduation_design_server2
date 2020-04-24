@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<style>
+ #target {
+	height: 400px;
+ }
+</style>
+<body>
+	<img src="./adaf2edda3cc7cd9609980523201213fb90e9181.jpg" id="target" alt="[Jcrop Example]" />
+	<button id="btn">
+		剪切
+	</button>
+</body>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./jquery.Jcrop.js"></script>
+<script>
+    var jcrop_api;
+  let value = null,
+  page = 1;
+$('#target').Jcrop({
+  onSelect:   showCoords
+},function(){
+  jcrop_api = this;
+});
+function showCoords(c)
+  {
+    // $('#x1').val(c.x);
+    // $('#y1').val(c.y);
+    // $('#x2').val(c.x2);
+    // $('#y2').val(c.y2);
+    // $('#w').val(c.w);
+	// $('#h').val(c.h);
+	value = c
+	page = c
+	console.log(c)
+  };	
+ $('#btn').click(()=>{
+	 console.log(1)
+  const img =  $('#target').get(0)
+  	let showW= getComputedStyle(img).width,
+		showH = getComputedStyle(img).height,
+		realH = img.naturalHeight,
+		realW = img.naturalWidth;
+		value.percendH = parseInt(showH) / parseInt(realH)
+		value.percendW = parseInt(showW) / parseInt(realW)
+		$.post("/cutimage",value,function(res){
+            console.log(res);
+            
+		})
+		$.post('/data',page, (res) =>{
+			console.log(res)
+		})
+})
+  
+</script>
+</html>

@@ -1,0 +1,205 @@
+{
+    "ret":true,
+    "data": {
+    "city": "北京",
+    "AccountData": [{
+      "account": "15364024159",
+      "password": "123"
+    }],
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201910/20191030093159_984188.jpg"
+    }, {
+        "id": "0002",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201910/20191029161354_604714.jpg"
+    }, {
+      "id": "0003",
+      "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201909/20190928012604_564394.jpg"
+    }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201910/20191011101011_968962.jpg",
+        "title": "LPL x NIKE联名新品",
+        "commodity_Class": "男女服饰",
+        "price": "400",
+        "number": 1,
+        "state": true
+      }, {
+        "id": "0002",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201910/20191020223019_649439.jpg",
+        "title": "卡莎1/4大型高端雕塑",
+        "commodity_Class": "雕塑手办",
+        "price": "400",
+        "number": 1,
+        "state": true
+      }, {
+        "id": "0003",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201910/20191030093036_590932.jpg",
+        "title": "万圣节迷你套装",
+        "commodity_Class": "雕塑手办",
+        "price": "400",
+        "number": 1,
+        "state": true
+      }, {
+        "id": "0004",
+        "imgUrl": "https://game.gtimg.cn/images/daojushop/zb/ad/201911/20191101100816_163806.jpg",
+        "title": "星之守护者索拉卡手办",
+        "commodity_Class": "雕塑手办",
+        "price": "400",
+        "number": 1,
+        "state": true
+      }],
+      "colloectionImg":[
+        { 
+          "id": "0001",
+          "class":"雕塑手办",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190918215352_85132.big.jpg"
+        }, {
+          "id": "0002",
+          "class":"毛绒玩偶",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201907/20190723090952_54659.big.jpg"
+        }, {
+          "id": "0003",
+          "class":"男女服饰",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190927232417_15783.big.jpg"
+        }, {
+          "id": "0004",
+          "class":"周边赛事",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201910/20191010171219_30038.big.jpg"
+        }, {
+          "id": "0005",
+          "class":"珠宝首饰",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191110140102_88888.big.jpg"
+        }, {
+          "id": "0006",
+          "class":"其他",
+           "imgUrl":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190918190738_29365.big.jpg"
+        }],
+      "menuList":[{
+        "id": "0001",
+        "title": "雕塑手办",
+        "chlidren": [{
+          "id":"0001",
+          "title": "大型雕塑"
+        }, {
+         "id":"0001",
+         "title": "中型雕塑"
+        }, {
+         "id":"0003",
+         "title": "限定手办"
+        }, {
+         "id":"0004",
+         "title": "迷你手办"
+        }, {
+         "id":"0005",
+         "title": "手办"
+        }]
+        }, {
+        "id": "0002",
+        "title": "毛绒玩偶",
+        "chlidren":[{
+          "id":"0001",
+          "title": "帽子"
+        }, {
+          "id":"0002",
+          "title": "玩偶"
+        }]
+        }, {
+        "id": "0003",
+        "title": "男女服饰",
+        "chlidren":[{
+          "id":"0001",
+          "title": "卫衣&夹克"
+        }, {
+          "id":"0002",
+          "title": "T恤"
+        }, {
+          "id":"0003",
+          "title": "其他"
+        }]
+        }, {
+        "id": "0004",
+        "title": "赛事周边",
+        "chlidren":[{
+          "id":"0001",
+          "title": "LPL X NIKE"
+        }, {
+          "id":"0002",
+          "title": "LPL其他"
+        }]
+        }, {
+        "id": "0005",
+        "title": "珠宝首饰",
+        "chlidren":[{
+          "id":"0001",
+          "title": "项链"
+        }, {
+          "id":"0002",
+          "title": "幸运珠"
+        }, {
+          "id":"0003",
+          "title": "手链"
+        }, {
+          "id":"0004",
+          "title": "配件"
+        }]
+        }, {
+       "id": "0006",
+       "title": "其他",
+       "chlidren":[{
+         "id":"0001",
+         "title": "手机壳"
+       }, {
+         "id":"0002",
+         "title": "鼠标垫"
+       }, {
+         "id":"0003",
+         "title": "艺术海报"
+       }, {
+         "id":"0004",
+         "title": "其他"
+       }]
+      }],
+     "userData": [{
+       "user_Img": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+       "user_Id": 0,
+       "user_Name": "小明",
+       "user_Sex": "男",
+       "user_Age": 18,
+       "user_Address": "xxxxxx",
+       "user_Telephone": "15364024159"
+     }],
+     "dialogueContentAll": [{
+      "id": "0001",
+      "userName": "小L",
+      "userRelationHeadImg": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+      "userLastWord": "?",
+      "userUnfinished": 0
+      }, {
+      "id": "0002",
+      "userName": "小绿",
+      "userRelationHeadImg": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+      "userLastWord": "??",
+      "userUnfinished": 0
+      }, {
+      "id": "0003",
+      "userName": "小黄",
+      "userRelationHeadImg": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+      "userLastWord": "???",
+      "userUnfinished": 0
+      }],
+      "bulleList": [{
+        "id": 0,
+        "userId": "0001",
+        "userName": "小黄",
+        "userHeadImg": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+        "userDialogueContent": "??"
+      }, {
+        "id": 1,
+        "userId": "0002",
+        "userName": "小",
+        "userHeadImg": "https://img.52z.com/upload/news/image/20190131/20190131094757_58016.jpg",
+        "userDialogueContent": "??"
+      }]
+    }
+}

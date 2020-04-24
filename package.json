@@ -1,0 +1,40 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.19",
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "boom": "^7.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "formidable": "^1.2.1",
+    "gm": "^1.23.1",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mime-type": "^3.0.7",
+    "mock": "^0.1.1",
+    "mockjs": "^1.1.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0",
+    "vue": "^2.6.10",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
